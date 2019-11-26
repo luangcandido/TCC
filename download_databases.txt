@@ -1,0 +1,24 @@
+##### LINKS PARA DOWNLOAD DOS MICRODADOS DO CENSO DA EDUCAÇÃO SUPERIOR 2009-2018
+
+## Formato .csv
+Os microdados do Censo da Educação Superior são disponibilizados anualmente pelo INEP em formato .csv, 
+que pode ser baixado através do site: http://portal.inep.gov.br/microdados
+
+## Formato .ff
+Os dados em csv, entretanto, são arquivos bastante pesados e de difícil tratamento. Para contornar essa dificuldade,
+seguindo sugestão oferecida pelo INEP nos próprios microdados, transformamos a base de dados para o formato ff. 
+
+Sua manipulação ocorre através de pacotes do R como o "ff", o "ffdf" e os "ffbase"/"ffbase2". Sua vantagem é transformar o arquivo 
+de interesse em uma pasta, onde cada coluna fica armazenada em um arquivo diferente, que pode ser manipulado individualmente. 
+
+Os microdados do Censo da Educação Superior entre 2009 e 2018 em formato ffdf estão disponíveis para download
+através do link: https://drive.google.com/open?id=1PXCT5EsSj9MiKT-AXDh4RcdgAtBKhTg_
+
+## Outros datasets utilizados
+Para agilizar a utilização dos códigos presentes neste repositório, os arquivos resultantes de algumas etapas foram salvos à parte,
+de forma que o usuário fosse capaz de continua o código a partir daquele ponto sem que tivesse de executar todas as etapas anteriores.
+
+Estes arquivos são:
+
+
+
